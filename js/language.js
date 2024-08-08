@@ -364,7 +364,7 @@ let lang = {
         qutionStrawberry:"Strawberry",
         qutionKiwi:"Kiwi",
 
-        qution8:"Question 9",
+        qution8:"Question 8",
         qutionnuts:"Select the types of nuts you like?",
         qutionAlmonds:"Almonds",
         qutionPeanuts:"Peanuts",
