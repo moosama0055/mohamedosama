@@ -401,61 +401,57 @@ font-family: 'Cairo', sans-serif;
         </a> -->
 <script>
     document.addEventListener("DOMContentLoaded", function () {
-        // اختر زر "Send to WhatsApp" باستخدام معرف الزر
-        const sendToWhatsAppButton = document.getElementById("sendToWhatsApp");
+    // Get the "Send to WhatsApp" button by its ID
+    const sendToWhatsAppButton = document.getElementById("sendToWhatsApp");
 
-        // اضبط رقم الواتساب الهدف هنا
-        const whatsappNumber = "+201004056576";
+    // Set the target WhatsApp number here
+    const whatsappNumber = "+201004056576";
 
-        sendToWhatsAppButton.addEventListener("click", function () {
-            // جمع جميع الإجابات من النموذج هنا واستخدامها لإنشاء الرسالة
-            const name = document.getElementById("name").value;
-            const age = document.getElementById("age").value;
-            const transfernumber = document.getElementById("transfer-number").value;
-            const CAT_Custom_2 = document.getElementById("CAT_Custom_2").value; // احصل على قيمة المدى
-            const range_weight = document.getElementById("range-weight").value; // احصل على قيمة المدى (الوزن)
-            const source = document.getElementById("CAT_Custom_4").value; // احصل على قيمة السؤال الرابع
-            // const trainingExperience = document.getElementById("CAT_Custom_5").value; // احصل على قيمة السؤال الخامس
-            const othersports = document.querySelector('input[name="CAT_Custom_6"]:checked').value; // احصل على إجابة السؤال السادس
-            // احصل على قيم البروتينات المختارة
-            const healthyfats = Array.from(document.querySelectorAll('input[name="healthy_fats[]"]:checked'))
-            .map((checkbox) => checkbox.value)
-            .slice(0, 5)
-            .join(", ");
-             // جمع الاختيارات من السؤال الثامن (أقصى 3 اختيارات)
-        const fruit_preferenc = Array.from(document.querySelectorAll('input[name="fruit_preference[]"]:checked'))
-            .map((checkbox) => checkbox.value)
-            .slice(0, 5)
-            .join(", ");
-     // جمع الاختيارات من السؤال العاشر (أقصى 2 اختيارات)
-     const selecteprotein = Array.from(document.querySelectorAll('input[name="protein"]:checked'))
-            .map((checkbox) => checkbox.value)
-            .slice(0, 5)
-            .join(", ");
-            const goalfromthisexercise = document.getElementById("CAT_Custom_11").value; // احصل على إجابة السؤال الحادي عشر
-            const health_issues = document.getElementById("health_issues").value; // احصل على إجابة السؤال الثاني عشر
-            const preferred_foods = document.getElementById("preferred_foods").value;
-            // const goal = document.getElementById("goal").value;
+    sendToWhatsAppButton.addEventListener("click", function () {
+        // Collect form data
+        const name = document.getElementById("name").value;
+        const age = document.getElementById("age").value;
+        const transferNumber = document.getElementById("transfer-number").value;
+        const height = document.getElementById("CAT_Custom_2").value;
+        const weight = document.getElementById("range-weight").value;
+        const dayStatus = document.getElementById("CAT_Custom_4").value;
 
-            const exCoachIssues = Array.from(document.querySelectorAll('input[name="CAT_Custom_5[]"]:checked'))
-    .map((checkbox) => checkbox.value)
-    .join(", ");
+        // Collect selected checkboxes
+        const selectedCarbs = Array.from(document.querySelectorAll("input[name='CAT_Custom_5[]']:checked")).map(cb => cb.value).join(", ");
+        const selectedFats = Array.from(document.querySelectorAll("input[name='healthy_fats[]']:checked")).map(cb => cb.value).join(", ");
+        const selectedFruits = Array.from(document.querySelectorAll("input[name='fruit_preference[]']:checked")).map(cb => cb.value).join(", ");
+        const selectedNuts = Array.from(document.querySelectorAll("input[name='food']:checked")).map(cb => cb.value).join(", ");
+        const selectedProteins = Array.from(document.querySelectorAll("input[name='protein']:checked")).map(cb => cb.value).join(", ");
+        const playsOtherSports = document.querySelector("input[name='CAT_Custom_6']:checked").value;
+        const goal = document.getElementById("CAT_Custom_11").value;
+        const healthIssues = document.getElementById("health_issues").value;
+        const preferredFoods = document.getElementById("preferred_foods").value;
+        const packageChosen = document.querySelector("input[name='package']:checked").value;
 
-             // احصل على إجابة السؤال السابع عشر
-             const package = document.querySelector('input[name="package"]:checked').value;
+        // Prepare the message
+        const message = `*Name:* ${name}
+*Age:* ${age}
+*Transfer Number:* ${transferNumber}
+*Height:* ${height}
+*Weight:* ${weight}
+*How's your day going?:* ${dayStatus}
+*Preferred Carbohydrates:* ${selectedCarbs}
+*Preferred Fats:* ${selectedFats}
+*Preferred Fruits:* ${selectedFruits}
+*Preferred Nuts:* ${selectedNuts}
+*Preferred Proteins:* ${selectedProteins}
+*Do you play other sports?:* ${playsOtherSports}
+*Goal from exercise:* ${goal}
+*Health Issues/Injuries:* ${healthIssues}
+*Other Preferred Foods:* ${preferredFoods}
+*Package Chosen:* ${packageChosen}`;
 
-            // بناء الرسالة
-            let message = `Name: ${name}\nAge: ${age}\ntransfernumber: ${transfernumber}\nHeight: ${CAT_Custom_2}\nWeight: ${range_weight}\nHow is your day going?: ${source}\nCarbohydrates: ${exCoachIssues}\nhealthy fats: ${healthyfats}\nfruit preference: ${fruit_preferenc}\nprotein: ${selecteprotein}\nother sports: ${othersports}\ngoal from this exercise: ${goalfromthisexercise}\nhealth issues: ${health_issues}\npreferred foods: ${preferred_foods}\n package name: ${package}\n`;
+        // Encode the message
+        const encodedMessage = encodeURIComponent(message);
 
-            // تشفير الرسالة لاستخدامها في رابط WhatsApp
-            const encodedMessage = encodeURIComponent(message);
-
-            // إنشاء رابط WhatsApp بناءً على الرقم والرسالة
-            const whatsappLink = `https://api.whatsapp.com/send?phone=${whatsappNumber}&text=${encodedMessage}`;
-
-            // توجيه المستخدم إلى رابط WhatsApp
-            window.location.href = whatsappLink;
-        });
+        // Open WhatsApp with the message
+        window.open(`https://api.whatsapp.com/send?phone=${whatsappNumber}&text=${encodedMessage}`);
+    });
     });
 </script>
 
