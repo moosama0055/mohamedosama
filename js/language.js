@@ -23,7 +23,7 @@ let lang = {
     
         pricingli2: "إرسال التحديثات كل 14 يومًا",
         pricingli3: "خطة النظام الغذائي يتم تحديثها كل 14 يومًا بناءً على التقدم",
-        pricingli4: "تلقي خطة تمرين مفسرة بالفيديو (للرجال فقط)",
+        pricingli4: "تلقي خطة تمرين مفسرة بالفيديو ",
         price1: "EGP/700",
         pricemonth1: "شهرياً",
         button2: "ابدأ الآن",
@@ -36,7 +36,8 @@ let lang = {
         pricingli8: "تحديث خطة التمرين كل 3 إلى 4 أسابيع",
         price6: "EGP/1800",
         price7: "3/شهر",
-    
+        pricingliinclude:"يشمل الصور والـ Inbody",
+
         pricing8: "الحزمة القصوى",
         pricing9: "قصوى",
         pricingli9: "إرسال التحديثات كل 14 يومًا",
@@ -45,7 +46,8 @@ let lang = {
         pricingli12: "تحديث خطة التمرين كل 3 إلى 4 أسابيع",
         price9: "EGP/2800",
         price10: "6/شهر",
-    
+        pricingliwhats:"تواصل يومي عبر واتساب",
+
         workout1: "اختر مثاليك",
         workout2: "خطة التمرين",
         workout3: "التمرين المنزلي بدون معدات",
@@ -131,60 +133,69 @@ let lang = {
         qution4: "السؤال 4",
         qutionday: "كيف تسير يومك؟",
         qution5: "السؤال 5",
-        qutioncarbohydrets: "الكربوهيدرات",
-        qutionrice: "الأرز الأبيض",
-        qutionpasta: "المعكرونة",
-        qutionoats: "الشوفان",
-        qutionpotatos: "البطاطس",
-        qutionsweet: "البطاطا الحلوة",
-        qutionbasmatic: "الأرز البسمتي",
-    
-        qution6: "السؤال 6",
-        qutionothersports: "هل تمارس رياضات أخرى؟",
-        qutionyes: "نعم",
-        qutionno: "لا",
-    
-        qution7: "السؤال 7",
-        qutionhealthyfats: "اختر حتى 3 أنواع من الدهون الصحية التي تحبها؟",
-        qutionPeanuts: "الفول السوداني",
-        qutioAlmonds: "اللوز",
-        qutionPeanut: "زبدة الفول السوداني",
-        qutionCashews: "الكاجو",
-        qutionOil: "زيت الزيتون",
-        qutionHazelnuts: "البندق",
-    
-        qution8: "السؤال 8",
-        qutionfruits: "اختر حتى 3 فواكه تفضلها؟",
-        qutionWatermelon: "البطيخ",
-        qutionOrange: "البرتقال",
-        qutionBanana: "الموز",
-        qutionApple: "التفاح",
-        qutionStrawberry: "الفراولة",
-        qutionKiwi: "الكيوي",
-    
-        qution8: "السؤال 9",
-        qutionnuts: "اختر نوعين من المكسرات التي تحبها؟",
-        qutionAlmonds: "اللوز",
-        qutionPeanuts: "الفول السوداني",
-        qutionHazelnuts: "البندق",
-        qutionCashews: "الكاجو",
-        qutionWalnuts: "الجوز",
-        qutionMacadamia: "مكاديميا",
-        qutionPistachios: "الفستق",
-    
-        qution10: "السؤال 10",
-        qutionexperiance: "ما هو هدفك من هذا التمرين؟",
-    
-        qution11: "السؤال 11",
-        qutionissues: "هل لديك أي مشاكل صحية أو إصابات؟",
-    
-        qution12: "السؤال 12",
-        qutionfoodinpossiblae: "ما هي الأطعمة الأخرى التي تحبها (التي يمكن تضمينها في النظام الغذائي إن أمكن)؟",
-        qution13: "السؤال 13",
-        qutionpachage: "ما هي الحزمة التي اخترتها من حيث التسعير؟",
-        qutionbasic: "الحزمة الأساسية",
-        qutionpremium: "الحزمة المميزة",
-        qutionultimate: "الحزمة القصوى"
+        carbohydrates: "اختر أنواع الكربوهيدرات",
+        rice: "الأرز الأبيض",
+        pasta: "المعكرونة",
+        oats: "الشوفان",
+        potatoes: "البطاطس",
+        sweetPotatoes: "البطاطا الحلوة",
+        basmatiRice: "أرز بسمتي",
+
+        question6: "السؤال 6",
+        otherSports: "هل تمارس رياضات أخرى؟",
+        yes: "نعم",
+        no: "لا",
+
+        question7: "السؤال 7",
+        healthyFats: "اختر أنواع الدهون الصحية التي تفضلها؟",
+        peanuts: "الفول السوداني",
+        almonds: "اللوز",
+        peanutButter: "زبدة الفول السوداني",
+        cashews: "الكاجو",
+        oliveOil: "زيت الزيتون",
+        hazelnuts: "البندق",
+
+        question8: "السؤال 8",
+        fruits: "اختر أنواع الفواكه التي تفضلها؟",
+        watermelon: "البطيخ",
+        orange: "البرتقال",
+        banana: "الموز",
+        apple: "التفاح",
+        strawberry: "الفراولة",
+        kiwi: "الكيوي",
+
+        question9: "السؤال 9",
+        nuts: "اختر أنواع المكسرات التي تفضلها؟",
+        almonds: "اللوز",
+        peanuts: "الفول السوداني",
+        hazelnuts: "البندق",
+        cashews: "الكاجو",
+        walnuts: "الجوز",
+        macadamiaNuts: "مكاديميا",
+        pistachios: "الفستق",
+
+        question10: "السؤال 10",
+        goal: "ما هو هدفك من هذه التمارين؟",
+
+        question11: "السؤال 11",
+        healthIssues: "هل تعاني من أي مشاكل صحية أو إصابات؟",
+
+        question12: "السؤال 12",
+        otherFoods: "ما الأطعمة الأخرى التي تحبها (التي يمكن تضمينها في النظام الغذائي إذا أمكن)؟",
+        question13: "السؤال 13",
+        package: "ما الباقة التي اخترتها من حيث التسعير؟",
+        basic: "الباقة الأساسية",
+        premium: "الباقة المميزة",
+        ultimate: "الباقة القصوى",
+
+        question14: "السؤال 14",
+        protein: "اختر أنواع البروتين التي تفضلها:",
+        eggs: "البيض",
+        fish: "الأسماك (جميع الأنواع)",
+        chicken: "الدجاج",
+        beef: "اللحم البقري",
+        turkey: "صدر الديك الرومي",
+        salmon: "سمك السلمون",
     },
     en: {
         home1:"TRANSFORM",
@@ -210,7 +221,7 @@ let lang = {
 
         pricingli2:"Send updates every 14 days",
         pricingli3:"Diet plan updated every 14 days based on progress",
-        pricingli4:"Receive a video-explained workout plan (for men only)",
+        pricingli4:"Receive a video-explained workout plan",
         price1:"EGP/700",
         pricemonth1:"monthly",
         button2:"Get started",
@@ -223,6 +234,7 @@ let lang = {
         pricingli8:"Workout plan updated every 3 to 4 weeks",
         price6:"EGP/1800",
         price7:"3/Month",
+        pricingliinclude:"Includes photos and inbody",
 
         pricing8:"Ultimate Package",
         pricing9:"Ultimate",
@@ -232,6 +244,7 @@ let lang = {
         pricingli12:"Workout plan updated every 3 to 4 weeks",
         price9:"EGP/2800",
         price10:"6/Month",
+        pricingliwhats:"Daily communication via WhatsApp",
 
         workout1:"Choose Your Ideal",
         workout2:"Workout Plan",
@@ -318,7 +331,7 @@ let lang = {
         qution4:"Question 4",
         qutionday:"How is your day going?",
         qution5:"Question 5",
-        qutioncarbohydrets:"Carbohydrates",
+        qutioncarbohydrets:"Select the types of Carbohydrates",
         qutionrice:"White rice",
         qutionpasta:"Pasta",
         qutionoats:"Oats",
@@ -333,7 +346,7 @@ let lang = {
         qutionno:"No",
 
         qution7:"Question 7",
-        qutionhealthyfats:"Choose up to 3 types of healthy fats you like?",
+        qutionhealthyfats:"Select the types ofhealthy fats you like?",
         qutionPeanuts:"Peanuts",
         qutioAlmonds:"Almonds",
         qutionPeanut:"Peanut Butter",
@@ -343,7 +356,7 @@ let lang = {
 
 
         qution8:"Question 8",
-        qutionfruits:"Choose up to 3 fruits you prefer?",
+        qutionfruits:"Select the types of fruits you prefer?",
         qutionWatermelon:"Watermelon",
         qutionOrange:" Orange",
         qutionBanana:"Banana",
@@ -352,7 +365,7 @@ let lang = {
         qutionKiwi:"Kiwi",
 
         qution8:"Question 9",
-        qutionnuts:"Select up to two types of nuts you like?",
+        qutionnuts:"Select the types of nuts you like?",
         qutionAlmonds:"Almonds",
         qutionPeanuts:"Peanuts",
         qutionHazelnuts:"Hazelnuts",
@@ -376,7 +389,14 @@ let lang = {
         qutionpremium:"Premium Package",
         qutionultimate:"Ultimate Package",
 
-
+        qution14:"Question 14",
+        qutionProtein:"Select the types of protein you like:",
+        qutioneggs:"Eggs",
+        qutionfish:"Fish (all types)",
+        qutionchicken:"Chicken",
+        qutionbeaf:"Beef",
+        qutionturkey:"Turkey Breast",
+        qutionsalmon:"Salmon",
     }
 };
 
