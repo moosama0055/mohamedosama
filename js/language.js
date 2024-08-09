@@ -18,8 +18,8 @@ let lang = {
         pricing1: "اختر خطتك",
         pricing2: "رجل",
         pricing3: "امرأة",
-        pricing4: "الحزمة الأساسية",
-        pricing5: "أساسي",
+        pricinggs: "الباقة الفضية (شهرياً)",
+        pricinggb: "أساسي",
     
         pricingli2: "إرسال التحديثات كل 14 يومًا",
         pricingli3: "خطة النظام الغذائي يتم تحديثها كل 14 يومًا بناءً على التقدم",
@@ -28,7 +28,7 @@ let lang = {
         pricemonth1: "شهرياً",
         button2: "ابدأ الآن",
     
-        pricing4: "الحزمة المميزة",
+        pricing4: "الباقة المميزة (3 أشهر)",
         pricing5: "مميز",
         pricingli5: "إرسال التحديثات كل 14 يومًا",
         pricingli6: "خطة النظام الغذائي يتم تحديثها كل 14 يومًا بناءً على التقدم",
@@ -38,8 +38,8 @@ let lang = {
         price7: "3/شهر",
         pricingliinclude:"يشمل الصور والـ Inbody",
 
-        pricing8: "الحزمة القصوى",
-        pricing9: "قصوى",
+        pricing8: "الباقة الفائقة (6 أشهر)",
+        pricing9: "فائق",
         pricingli9: "إرسال التحديثات كل 14 يومًا",
         pricingli10: "خطة النظام الغذائي يتم تحديثها كل 14 يومًا بناءً على التقدم",
         pricingli11: "تلقي خطة تمرين مفسرة بالفيديو",
@@ -57,7 +57,7 @@ let lang = {
     
         workout6: "التمرين المنزلي بالمعدات (دمبل)",
         workout7: "200 جنيه مصري",
-        workout8: "برنامج تمرين منزلي باستخدام الدمبلز. يركز على تدريب القوة وبناء العضلات واللياقة البدنية العامة. مثالي لتمارين فعالة ومستهدفة في المنزل.",
+        workout99: "برنامج تمرين منزلي باستخدام الدمبلز. يركز على تدريب القوة وبناء العضلات واللياقة البدنية العامة. مثالي لتمارين فعالة ومستهدفة في المنزل.",
         workout9: "تمرين المبتدئين Push . Pull . Leg (3 أيام)",
         workout10: "200 جنيه مصري",
         workout11: "خطة تمرين مناسبة للمبتدئين بجدول 3 أيام: Push، Pull، وLegs. تركز على بناء القوة والتكيف مع تمارين بسيطة.",
@@ -216,8 +216,8 @@ let lang = {
         pricing1:"Choose Your Plan",
         pricing2:"Man",
         pricing3:"Woman",
-        pricing4:"Basic Package",
-        pricing5:"Basic",
+        pricinggs:"Silver Package (monthly)",
+        pricinggb:"Basic",
 
         pricingli2:"Send updates every 14 days",
         pricingli3:"Diet plan updated every 14 days based on progress",
@@ -226,7 +226,7 @@ let lang = {
         pricemonth1:"monthly",
         button2:"Get started",
 
-        pricing4:"Premium Package",
+        pricing4:"Premium Package (3month)",
         pricing5:"Premium",
         pricingli5:"Send updates every 14 days",
         pricingli6:"Diet plan updated every 14 days based on progress",
@@ -236,7 +236,7 @@ let lang = {
         price7:"3/Month",
         pricingliinclude:"Includes photos and inbody",
 
-        pricing8:"Ultimate Package",
+        pricing8:"Ultimate Package (6month)",
         pricing9:"Ultimate",
         pricingli9:"Send updates every 14 days",
         pricingli10:"Diet plan updated every 14 days based on progress",
@@ -255,7 +255,7 @@ let lang = {
 
         workout6:"Exercise Home equipment ( dummble )",
         workout7:"200EGP",
-        workout8:"A home workout program using dumbbells. Focuses on strength training, muscle building, and overall fitness. Ideal for effective, targeted exercises at home.",
+        workout99:"A home workout program using dumbbells. Focuses on strength training, muscle building, and overall fitness. Ideal for effective, targeted exercises at home.",
         workout9:"work out  beginner Push . Pull . Leg ( 3 days )",
         workout10:"200EGP",
         workout11:"A beginner-friendly workout plan with a 3-day split: Push, Pull, and Legs. Focuses on building strength and conditioning with simple exercises.",
