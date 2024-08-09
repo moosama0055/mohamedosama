@@ -3,7 +3,7 @@ let lang = {
         home1: "تحويل",
         home2: "حياتك",
         home3: "للأفضل",
-        button1: "استكشاف المريخ",
+        button1: "انضم إلى فريقي",
     
         about1: "حول",
         about2: "محمد أسامة",
@@ -201,7 +201,7 @@ let lang = {
         home1:"TRANSFORM",
         home2:"YOUR",
         home3:"LIFE",
-        button1:"Explore Mars",
+        button1:"Join My Team",
 
         about1:"About",
         about2:"Mohamed Osama",
