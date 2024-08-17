@@ -254,7 +254,7 @@ let lang = {
         workout1:"Choose Your Ideal",
         workout2:"Workout Plan",
         workout3:"Exercise Home without equipment",
-        workout4:"200EGP",
+        workout4:"550EGP",
         workout5:"A home workout plan using only bodyweight exercises. Builds strength, flexibility, and fitness without any equipment. Ideal for effective, easy-to-follow routines at home.",
         button3:"BUY NOW",
 
