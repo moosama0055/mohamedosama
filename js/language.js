@@ -198,7 +198,7 @@ let lang = {
         turkey: "صدر الديك الرومي",
         salmon: "سمك السلمون",
         pricingliebook:"كتاب إلكتروني لوصفات التغذية",
-        workoutebook:"اكتشف وصفات التغذية الأساسية في كتابنا الإلكتروني. مثالي للأكل الصحي أكثر، ويقدم إرشادات قيمة للجميع. اشترِ الآن لبدء الاستخدام"
+        workoutebook2:"اكتشف وصفات التغذية الأساسية في كتابنا الإلكتروني. مثالي للأكل الصحي أكثر، ويقدم إرشادات قيمة للجميع. اشترِ الآن لبدء الاستخدام"
    
     },
     en: {
@@ -405,7 +405,7 @@ let lang = {
         qutionsalmon:"Salmon",
 
         pricingliebook:"E-Book nutrition recipes",
-        workoutebook:"Discover essential nutrition recipes in our E-Book. Perfect for healthier eating, it offers valuable guidance for all. Buy now to start",
+        workoutebook2:"Discover essential nutrition recipes in our E-Book. Perfect for healthier eating, it offers valuable guidance for all. Buy now to start",
 
         
     }
