@@ -72,6 +72,7 @@ let lang = {
         workout20: "خطة تمرين Pro Split المتقدمة لمدة 6 أيام تقدم نهجاً منظماً لبناء العضلات وزيادة القوة. مثالية لعشاق اللياقة البدنية الجادين.",
         workout21: "تمرين متقدم Super Set",
         workout22: "200 جنيه مصري",
+        workoutebook:"650 جنيه مصري",
         workout23: "ارتقِ بلياقتك مع تمرين Advanced Super Set. يقدم هذا البرنامج روتينات مكثفة وفعالة لتحقيق أقصى النتائج. مثالي للمدربين المتقدمين.",
         workout24: "تمرين Push Pull Legs Upper Lower (5 أيام)",
         workout25: "200 جنيه مصري",
@@ -258,22 +259,23 @@ let lang = {
         button3:"BUY NOW",
 
         workout6:"Exercise Home equipment ( dummble )",
-        workout7:"200EGP",
+        workout7:"550EGP",
         workout99:"A home workout program using dumbbells. Focuses on strength training, muscle building, and overall fitness. Ideal for effective, targeted exercises at home.",
         workout9:"work out  beginner Push . Pull . Leg ( 3 days )",
-        workout10:"200EGP",
+        workout10:"550EGP",
+        workoutebook:"650EGP",
         workout11:"A beginner-friendly workout plan with a 3-day split: Push, Pull, and Legs. Focuses on building strength and conditioning with simple exercises.",
         workout12:"work out  beginner Pro spilt",
-        workout13:"200EGP",
+        workout13:"550EGP",
         workout14:"A beginner workout program featuring a pro split routine. Focuses on fundamental exercises to build strength and endurance, with easy-to-follow instructions.",
         workout15:"work out  Advanced Push pull leg ( 6 days )",
-        workout16:"200EGP",
+        workout16:"550EGP",
         workout17:"Advanced 6-day push-pull-leg workout plan for intense muscle growth and strength. Comprehensive routines designed for maximum results. Get fit faster!",
         workout18:"work out  Advanced Pro split ( 6 days )",
-        workout19:"200EGP",
+        workout19:"550EGP",
         workout20:"This advanced 6-day Pro Split workout plan offers a structured approach for muscle building and strength gains. Ideal for serious fitness enthusiasts.",
         workout21:"work out  Advanced Super set",
-        workout22:"200EGP",
+        workout22:"550EGP",
         workout23:"Elevate your fitness with our Advanced Super Set Workout. This program offers intense, efficient routines for maximum results. Perfect for advanced trainers.",
         workout24:"work out Push pull legs upper lower (5 days )",
         workout25:"200EGP",
@@ -403,7 +405,9 @@ let lang = {
         qutionsalmon:"Salmon",
 
         pricingliebook:"E-Book nutrition recipes",
-        workoutebook:"Discover essential nutrition recipes in our E-Book. Perfect for healthier eating, it offers valuable guidance for all. Buy now to start"
+        workoutebook:"Discover essential nutrition recipes in our E-Book. Perfect for healthier eating, it offers valuable guidance for all. Buy now to start",
+
+        
     }
 };
 
